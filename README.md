@@ -1,4 +1,4 @@
-# To-Do Tracker
+# To-Do-App
 
 ![](assets/app.gif)
 
