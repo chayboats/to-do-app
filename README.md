@@ -2,6 +2,8 @@
 
 ![](assets/app.gif)
 
+[![To do Video]](https://github.com/chayboats/to-do-app/blob/main/to-do-video.mov)
+
 Welcome to To-Do Tracker! This is a simple web application that allows users to keep track of their to-do tasks easily. The application is built using HTML, CSS, and JavaScript.
 
 ###### Access project below
