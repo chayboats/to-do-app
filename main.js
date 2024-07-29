@@ -14,18 +14,18 @@ function createElement(elementType, options = {}) {
   const optionKeys = Object.keys(options);
 
   optionKeys.forEach((key) => {
-    if(key == 'classList' && Array.isArray(options[key])) {
+    if (key == 'classList' && Array.isArray(options[key])) {
       element[key].add(...options[key]);
     } else {
       element[key] = options[key];
     }
-  })
+  });
 
   return element;
 }
 
 function createTask(inputValue) {
-  return createElement('span', { textContent: inputValue });;
+  return createElement('span', { textContent: inputValue });
 }
 
 function removeTask(trashCan) {
@@ -43,7 +43,6 @@ function createDeleteButton() {
     updateLocalStorage();
     trashCan.parentElement.remove();
   });
-
   return trashCan;
 }
 
